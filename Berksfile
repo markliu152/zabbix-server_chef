@@ -1,4 +1,4 @@
 # frozen_string_literal: true
-source 'https://supermarket.chef.io'
+source 'https://github.com/markliu152/zabbix1'
 
 metadata
