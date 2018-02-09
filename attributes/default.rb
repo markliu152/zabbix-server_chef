@@ -8,3 +8,4 @@ default['zabbix']['mysql']['root_password'] = 'mysql'
 default['zabbix']['mysql']['db_name'] = 'mark'
 default['zabbix']['mysql']['user_name'] = 'mliu'
 default['zabbix']['mysql']['user_password'] = '123456'
+default['port'] = ['80/tcp,10051/tcp']
