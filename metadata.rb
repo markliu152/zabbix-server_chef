@@ -7,9 +7,6 @@ long_description 'Installs/Configures zabbix-server'
 version '0.1.0'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
-issues_url 'https://github.com/markliu152/zabbix1/issues'
-source_url 'https://github.com/markliu152/zabbix1'
-
 depends 'zabbix1'
 
 # The `issues_url` points to the location where issues for this cookbook are
