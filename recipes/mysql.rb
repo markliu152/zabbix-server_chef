@@ -1,4 +1,4 @@
-package 'mariadb' 
+package 'mariadb'
 package 'mariadb-server'
 service 'mariadb' do
   action [:enable, :start]
