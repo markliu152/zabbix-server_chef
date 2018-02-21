@@ -3,6 +3,7 @@ default['zabbix']['packages'] = %w{zabbix-server-mysql zabbix-web-mysql mariadb 
 default['zabbix']['services'] = %w{mariadb zabbix-server zabbix-agent httpd}
 default['php_value']['date']['timezone'] = 'php_value date.timezone Asia/Shanghai'
 default['zabbix']['agent']['hostname'] = 'node.kds.io'
+default['zabbix']['agent']['Server'] = '192.168.0.187'
 default['zabbix']['mysql']['db_name'] = 'mark'
 default['zabbix']['mysql']['user_name'] = 'mliu'
 default['zabbix']['mysql']['user_password'] = '123456'
