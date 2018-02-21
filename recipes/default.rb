@@ -7,6 +7,7 @@
 
 include_recipe 'zabbix1::release'
 include_recipe 'zabbix1::firewall'
+include_recipe 'zabbix-server::mysql'
 
 node['zabbix']['packages'].each do |pkg|
   package pkg do
@@ -35,7 +36,6 @@ template '/etc/zabbix/zabbix_server.conf' do
   mode '0644'
 end
 
-include_recipe 'zabbix-server::mariadb'
 include_recipe 'zabbix1::selinux'
 
 node['zabbix']['services'].each do |svc|
